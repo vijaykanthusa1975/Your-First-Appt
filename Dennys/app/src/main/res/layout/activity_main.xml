@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/business_image"
+        android:src="@drawable/dennysdiner"
+        android:scaleType="fitStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView android:text="\n
+        DENNY’S EL SEGUNDO BLVD
+        Casual Diner\n
+        2555 El Segundo Blvd, El Segundo, CA 90245
+        Call (310) 643-9187\n
+        Open 24 Hours, 7 Days a Week"
+        android:elegantTextHeight="true"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#910406"
+        android:fontFamily="sans-serif-light"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="180dp"
+        android:layout_centerVertical="true" />
+
+
+    <ImageView
+        android:src="@drawable/map"
+        android:scaleType="fitEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/map"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
